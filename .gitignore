@@ -1,0 +1,98 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+build/
+dist/
+
+# Dependency directories
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+debug.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Flask-specific
+__pycache__/
+instance/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Flask environment
+.venv/
+*.env
+*.env.*
+
+# Database and migrations
+migrations/
+db.sqlite3
+
+# Pytest cache
+.pytest_cache/
+.tox/
+
+# IDE and editor specific
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+*~
+Thumbs.db
+
+# Coverage
+coverage/
+*.cover
+.hypothesis/
+*.hypothesis_cache
+.coverage
+*.cover.*
+
+# Build artifacts
+*.egg-info/
+.eggs/
+*.egg
+
+# Test output
+*.pytest_cache/
+junit*.xml
+test-results.xml
+
+# Lint
+pylint-report.*
+
+# Local Flask settings
+config.py
+config_dev.py
+config_prod.py
+
+# Ignore virtual environments
+env/
+venv/
+ENV/
+
+# React specific
+*.cache/
+.eslintcache
+
+# Docker
+*.swp
+docker-compose.override.yml
+*.log
